@@ -10,7 +10,7 @@ def getInput(prompt):
     """
     output = input(prompt).lower()
     
-    while output.isalpha() == False \
+    while output.isAlpha() == False \
           or not validInput(output):
         output = input("Must enter valid words. " + prompt).lower() 
     
